@@ -1,0 +1,173 @@
+body{
+    background-image: url(bg1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h2{
+    color: whitesmoke;
+    background-color: black;
+    border-radius: 30px;
+    width: 500px;
+    opacity: 0.2;
+    height: 50px;
+    padding-top: 10px;
+    margin-left: 500px;
+    text-align: center;
+    font-size: 40px;
+    font-family: calibri;
+    font-weight: bolder;
+}
+
+.container
+{
+  background-color:  #696969;
+  opacity: 0.9;
+  width: 320px;
+  height: 400px;
+  margin: 200px;
+  margin-left: 570px;
+  margin-top: 150px;
+  border-style: groove;
+  border-radius: 60px;
+  
+
+}
+
+.title-text{
+    
+    text-align: center;
+    color:white;
+    font-weight: bold;
+    font-family: calibri;
+    border: 4px solid gren;
+    height: 60px;
+    margin: 0.9px;
+    padding-top: 20px;
+    font-size: 30px;
+    text-transform: capitalize;
+    
+    opacity: 0.6;
+    
+
+}
+.email-text1
+{
+   
+   
+   padding: 15px;
+  
+   color: white;
+   font-size: 20px;
+   font-family: calibri;
+   font-weight: bolder;
+   margin-left: 36px;
+   margin-top: 35px;
+   
+  
+}
+
+p
+{
+  margin-top: 10px;
+  margin-left: 140px;
+  font-weight: bolder;
+  font-size: 12px;
+  color: whitesmoke;
+  
+  
+  
+}
+
+input{
+    height: 20px;
+    width: 160px;
+    font-size: 15px;
+    padding-left: 5px;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+   
+}
+.pass-input
+{
+    background-image: url(hide.png);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position: 135px;
+    margin-top: 55px;
+    
+}
+
+.pass-text2
+{
+    color: white;
+   padding: 15px;
+    font-size: 20px;
+    margin-top: -80px;
+    margin-left: 7px;
+    font-weight: bold;
+    font-family: calibri;
+}
+.btn-text3
+{
+    margin-top: 40px;
+    margin-left: 130px;
+ 
+}
+
+.container:hover
+{
+    background-color: black;
+    opacity: 0.8;
+    outline: none;
+    border: 1px groove whitesmoke;
+    box-shadow: 0 0 15px whitesmoke;
+}  
+
+
+.email-text1:hover
+{
+    color: blue;
+    
+}
+
+.pass-text2:hover
+{
+    color: blue;
+}
+
+button
+{
+    width: 70px;
+    height: 35px;
+    color: white;
+    border: 3px solid white;
+    background-color: black;
+    font-size: 15px;
+    padding: 2px;
+    border-radius: 30px;
+}
+
+button:hover
+{
+    background-color: darkslategray;
+    color: black;
+    box-shadow: 0 0 10px whitesmoke;
+}
+
+input:focus {
+    outline: none;
+    border-color: blue;
+    box-shadow: 0 0 10px blue;
+  }
+
+
+
+  button:focus
+  {
+    outline: none;
+    border-color: blue;
+    box-shadow: 0 0 10px blue;
+  }
+ 
